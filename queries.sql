@@ -1,5 +1,4 @@
 /* Day 1 */
-/* 
 SELECT * FROM animals WHERE name LIKE '%mon';
 
 SELECT name FROM animals WHERE date_of_birth BETWEEN '2016-01-01' AND '2019-12-31';
@@ -16,10 +15,8 @@ SELECT * FROM animals WHERE name <> 'Gabumon';
 
 SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
 
- */
 
 /* Day 2 */
-/* 
 BEGIN;
 
 UPDATE animals SET species = 'Unspecified';
@@ -55,9 +52,7 @@ SELECT * FROM animals;
 ROLLBACK;
 
 SELECT * FROM animals;
- */
 
-/* 
 BEGIN;
 
 DELETE FROM animals
@@ -75,7 +70,6 @@ SET weight_kg = weight_kg * -1
 WHERE weight_kg < 0;
 
 COMMIT;
- */
 
  -- How many animals are there?
 SELECT COUNT(*) FROM animals;

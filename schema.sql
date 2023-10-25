@@ -1,6 +1,5 @@
 /* Day 1 */
 
-/*
 CREATE DATABASE vet_clinic;
 
 \c vet_clinic
@@ -13,7 +12,6 @@ CREATE TABLE animals (
    neutered boolean,
    weight_kg decimal
 );
- */
 
 /* Day 2 */
 
