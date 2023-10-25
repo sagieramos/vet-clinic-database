@@ -90,12 +90,12 @@ FROM animals
 GROUP BY neutered;
 
 -- What is the minimum and maximum weight of each type of animal?
-SELECT type, MIN(weight_kg) AS min_weight, MAX(weight_kg) AS max_weight
+SELECT species, MIN(weight_kg) AS min_weight, MAX(weight_kg) AS max_weight
 FROM animals
-GROUP BY type;
+GROUP BY species;
 
 -- What is the average number of escape attempts per animal type of those born between 1990 and 2000?
-SELECT type, AVG(escape_attempts) AS avg_escape_attempts
+SELECT species, AVG(escape_attempts) AS avg_escape_attempts
 FROM animals
 WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-12-31'
-GROUP BY type;
+GROUP BY species;
