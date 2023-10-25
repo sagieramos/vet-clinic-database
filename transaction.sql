@@ -8,7 +8,7 @@ ROLLBACK;
 
 SELECT * FROM animals; */
 
-BEGIN;
+/* BEGIN;
 
 UPDATE animals
 SET species = 'digimon'
@@ -21,5 +21,14 @@ WHERE species IS NULL OR species = '';
 SELECT * FROM animals;
 
 COMMIT;
+
+SELECT * FROM animals;
+ */
+
+BEGIN;
+
+DELETE FROM animals;
+
+ROLLBACK;
 
 SELECT * FROM animals;
