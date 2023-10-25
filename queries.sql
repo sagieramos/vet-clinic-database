@@ -1,3 +1,4 @@
+/* Day 1 */
 /* 
 SELECT * FROM animals WHERE name LIKE '%mon';
 
@@ -17,6 +18,7 @@ SELECT * FROM animals WHERE weight_kg BETWEEN 10.4 AND 17.3;
 
  */
 
+/* Day 2 */
 /* 
 BEGIN;
 
@@ -53,7 +55,7 @@ ROLLBACK;
 SELECT * FROM animals;
  */
 
- BEGIN;
+BEGIN;
 
 DELETE FROM animals
 WHERE date_of_birth > '2022-01-01';

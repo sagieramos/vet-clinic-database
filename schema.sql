@@ -1,3 +1,5 @@
+/* Day 1 */
+
 /*
 CREATE DATABASE vet_clinic;
 
@@ -12,6 +14,8 @@ CREATE TABLE animals (
    weight_kg decimal
 );
  */
+
+/* Day 2 */
 
 ALTER TABLE animals
 ADD COLUMN species varchar(255);
