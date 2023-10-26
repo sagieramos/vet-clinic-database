@@ -19,3 +19,32 @@ INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) 
 
 /* Day 3 */
 
+INSERT INTO owners (full_name, age) VALUES
+('Sam Smith', 34),
+('Jennifer Orwell', 19),
+('Bob', 45),
+('Melody Pond', 77),
+('Dean Winchester', 14),
+('Jodie Whittaker', 38);
+
+INSERT INTO owners (full_name, age) VALUES
+('Sam Smith', 34),
+('Jennifer Orwell', 19),
+('Bob', 45),
+('Melody Pond', 77),
+('Dean Winchester', 14),
+('Jodie Whittaker', 38);
+
+INSERT INTO species (name) VALUES 
+('Pokemon'), ('Digimon');
+
+-- Set species_id to Digimon for animals with names ending in "mon"
+UPDATE animals
+SET species_id = (SELECT id FROM species WHERE name = 'Digimon')
+WHERE name ~* 'mon$';
+
+-- Set species_id to Pokemon for all other animals
+UPDATE animals
+SET species_id = (SELECT id FROM species WHERE name = 'Pokemon')
+WHERE name !~* 'mon$';
+
