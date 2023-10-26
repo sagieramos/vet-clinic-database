@@ -58,8 +58,14 @@ REFERENCES owners(id);
 /* Day 4 */
 
 CREATE TABLE vets (
-    id serial PRIMARY KEY,
+    id SERIAL PRIMARY KEY,
     name VARCHAR(255),
     age INTEGER,
     date_of_graduation DATE
+);
+
+CREATE TABLE specializations (
+    id SERIAL PRIMARY KEY,
+    vet_id INTEGER REFERENCES vets (id),
+    species_id INTEGER REFERENCES species (id),
 );
