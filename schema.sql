@@ -55,3 +55,11 @@ ADD CONSTRAINT fk_owner_id
 FOREIGN KEY (owner_id)
 REFERENCES owners(id);
 
+/* Day 4 */
+
+CREATE TABLE vets (
+    id serial PRIMARY KEY,
+    name VARCHAR(255),
+    age INTEGER,
+    date_of_graduation DATE
+);
