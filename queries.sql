@@ -170,3 +170,5 @@ JOIN vets vet ON v.vet_id = vet.id
 JOIN animals a ON v.animal_id = a.id
 WHERE vet.name = 'Stephanie Mendez';
 
+-- 
+
