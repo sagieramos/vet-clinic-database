@@ -100,6 +100,11 @@ To run tests, run the following command:
 - Twitter: [@sagieramos](https://twitter.com/sagieramos)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sagieramos)
 
+👤 **Lucy W. Mwangi**
+- GitHub: [@lucy-sees](https://github.com/lucy-sees)
+- Twitter: [@lucy_w_mwangi](https://twitter.com/lucy_w_mwangi)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/lucy-wanjiru-mwangi)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
