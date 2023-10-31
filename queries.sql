@@ -237,14 +237,3 @@ WHERE vet.name = 'Maisy Smith'
 GROUP BY s.name
 ORDER BY visit_count DESC
 LIMIT 1;
-
--- Day 1
--- Block 2
--- 
-CREATE INDEX visit_animal_id ON visits(animal_id);
-
-
-
-
-
-
