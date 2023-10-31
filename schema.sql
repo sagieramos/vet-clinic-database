@@ -77,3 +77,7 @@ CREATE TABLE visits (
     visit_date DATE
 );
 
+/* Day 1 B 2 */
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
