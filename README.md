@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="Blankdiagram.png" alt="logo" max-width="1000px"  height="auto" />
+  <img src="Blankdiagram.png" alt="logo" max-width="746px"  height="auto" />
   <br/>
 
   <h3><b>Vet Clinic Database</b></h3>
