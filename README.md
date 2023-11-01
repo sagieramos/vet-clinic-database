@@ -1,5 +1,14 @@
-# 📗 Table of Contents
+<div align="center">
 
+  <img src="Blankdiagram.png" alt="logo" max-width="1000px"  height="auto" />
+  <br/>
+
+  <h3><b>Vet Clinic Database</b></h3>
+
+</div>
+
+
+# 📗 Table of Contents
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 \[Vet clinic database\] ](#-vet-clinic-database-)
   - [🛠 Built With ](#-built-with-)
